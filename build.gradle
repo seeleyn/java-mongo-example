@@ -21,3 +21,7 @@ jar.manifest {
         "Implementation-Title"   : "java-mongo-example",
     )
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.0'
+}
